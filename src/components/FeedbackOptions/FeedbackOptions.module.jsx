@@ -15,8 +15,4 @@ export const Button = styled.button`
   &:hover {
     transform: scale(1.1);
   }
-  &:active {
-    box-shadow: inset 1px 1px 2px ${props => props.theme.colors.white},
-      inset -1px -1px 2px ${props => props.theme.colors.grey};
-  }
 `;
