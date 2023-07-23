@@ -10,7 +10,7 @@ export const Button = styled.button`
     text-transform: uppercase;
   }
   &:not(:last-child) {
-    margin-right: 30px;
+    margin-right: 35px;
   }
   &:hover {
     transform: scale(1.1);
