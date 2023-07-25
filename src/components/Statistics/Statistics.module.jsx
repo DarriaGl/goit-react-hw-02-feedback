@@ -1,7 +1,8 @@
 import styled from '@emotion/styled';
 export const List = styled.ul`
-  padding: 20px;
-  max-width: 320px;
+  padding: 10px;
+  border: 3px solid #fea639;
+  background-color: #fcd19c;
   border-radius: 10px;
 `;
 

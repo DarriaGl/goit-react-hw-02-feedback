@@ -3,7 +3,7 @@ import { Button } from './FeedbackOptions.module.jsx';
 
 export const Feedback = ({ options, leaveFeedback }) => {
   return (
-    <>
+    <div>
       {options.map(option => (
         <Button
           type="button"
@@ -14,7 +14,7 @@ export const Feedback = ({ options, leaveFeedback }) => {
           {option}
         </Button>
       ))}
-    </>
+    </div>
   );
 };
 
